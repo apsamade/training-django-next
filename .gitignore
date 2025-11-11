@@ -1,7 +1,20 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# === PYTHON / DJANGO ===
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+db.sqlite3
+*.log
+*/migrations/__pycache__/
+*/__pycache__/
+
+# === NEXT.JS / NODE.JS ===
+
 # dependencies
-/node_modules
+frontend/node_modules
 /.pnp
 .pnp.*
 .yarn/*
@@ -14,7 +27,7 @@
 /coverage
 
 # next.js
-/.next/
+frontend/.next/
 /out/
 
 # production

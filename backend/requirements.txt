@@ -1,0 +1,7 @@
+Django==5.2.*
+djangorestframework==3.16.*
+django-cors-headers==4.*
+djangorestframework-simplejwt==5.*
+psycopg[binary]==3.*
+stripe==10.*
+python-dotenv==1.*
